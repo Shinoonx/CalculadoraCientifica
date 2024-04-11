@@ -170,5 +170,9 @@ public class Main {
         double result = lado * lado * lado;
         return result;
     }
+    public static double areaEsfera(double radio){
+        double result = Math.PI * radio * radio;
+        return result;
+    }
 
 }
